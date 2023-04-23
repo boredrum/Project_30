@@ -57,7 +57,7 @@ console.log(count('5/0'));
 //         values = Values(expression);        // line 1
 //     } catch(error){
 //         if (error.name == 'TypeError'){
-//             throw error.message
+//             console.log(error.message);
 //         }else{
 //             throw error
 //         }
